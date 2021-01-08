@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, FormControlLabel, TextField, Typography, Switch, RadioGroup, Radio, Checkbox } from '@material-ui/core';
+import { Card, FormControlLabel, TextField, Typography, Switch, RadioGroup, Checkbox } from '@material-ui/core';
 import B2bRadio from "./B2bRadio";
 
 export default function Inputs() {
@@ -26,7 +26,9 @@ export default function Inputs() {
             <TextField select label="Select" fullWidth={true} />
             <TextField select label="Select" fullWidth={true} disabled />
             <FormControlLabel control={<Switch />} label="Switch" />
+            <FormControlLabel control={<Switch />} label="Switch" />
             <FormControlLabel control={<Switch />} label="Switch" disabled />
+            <FormControlLabel control={<Switch checked={true}/>} label="Switch" disabled />
             <RadioGroup aria-label="gender" name="gender1" value={value} onChange={handleChangeRadioGroup}>
                 <FormControlLabel value="female" control={<B2bRadio />} label="hey" />
                 <FormControlLabel value="other" control={<B2bRadio />} label="Other" />

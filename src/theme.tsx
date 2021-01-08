@@ -138,9 +138,17 @@ const theme = createMuiTheme({
                 boxShadow: "0px 1px 1px rgba(0, 0, 0, 0.16)"
             }
         },
+        MuiSwitch: {
+            switchBase: {
+                color: "#F0F0F0"
+            },
+            track: {
+                color: "rgba(34, 31, 31, 0.26)"
+            }
+        },
         MuiCard: {
             root: {
-                padding: 16
+                padding: 24
             }
         },
         MuiButtonBase: {

@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, FormControlLabel, TextField, Typography, Switch, RadioGroup, Checkbox } from '@material-ui/core';
 import B2bRadio from "./B2bRadio";
 
-export default function Inputs() {
+export default function Inputs():React.ReactElement {
     const [value, setValue] = React.useState('female');
 
     const handleChangeRadioGroup = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -20,15 +20,16 @@ export default function Inputs() {
 
     return (
         <Card>
-            <Typography variant="h6" color="textPrimary">Inputs</Typography>
-            <TextField placeholder="Placeholder" label="Text input" fullWidth={true} />
-            <TextField label="Text input" fullWidth={true} disabled />
+            <Typography variant="h5" color="textPrimary">Inputs</Typography>
+            <TextField label="Text input" placeholder="Placeholder" fullWidth={true} />
+            <TextField label="Text input" placeholder="Placeholder" fullWidth={true} disabled />
+            <TextField multiline rows={4} label="Text area" placeholder="Placeholder" fullWidth={true} />
+            <TextField multiline rows={4} label="Text area" placeholder="Placeholder" fullWidth={true} disabled />
             <TextField select label="Select" fullWidth={true} />
             <TextField select label="Select" fullWidth={true} disabled />
             <FormControlLabel control={<Switch />} label="Switch" />
-            <FormControlLabel control={<Switch />} label="Switch" />
             <FormControlLabel control={<Switch />} label="Switch" disabled />
-            <FormControlLabel control={<Switch checked={true}/>} label="Switch" disabled />
+            <FormControlLabel control={<Switch checked={true} />} label="Switch" disabled />
             <RadioGroup aria-label="gender" name="gender1" value={value} onChange={handleChangeRadioGroup}>
                 <FormControlLabel value="female" control={<B2bRadio />} label="hey" />
                 <FormControlLabel value="other" control={<B2bRadio />} label="Other" />

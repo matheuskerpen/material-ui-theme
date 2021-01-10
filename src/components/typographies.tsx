@@ -2,10 +2,10 @@ import { Card, Typography } from '@material-ui/core'
 import React from 'react'
 import theme from '../theme'
 
-export default function Typographies() {
+export default function Typographies():React.ReactElement {
     return (
         <Card>
-            <Typography style={{ marginBottom: theme.spacing(2) }} color="textPrimary" variant="h6">
+            <Typography style={{ marginBottom: theme.spacing(2) }} color="textPrimary" variant="h5">
                 TYPOGRAPHies
             </Typography>
             <Typography style={{ marginBottom: theme.spacing(1) }} variant="h1">
@@ -20,7 +20,7 @@ export default function Typographies() {
             <Typography style={{ marginBottom: theme.spacing(1) }} variant="h4">
                 H4: Tipography
             </Typography>
-            <Typography style={{ marginBottom: theme.spacing(1), color: "#F23030" }} variant="h5">
+            <Typography style={{ marginBottom: theme.spacing(1) }} variant="h5">
                 H5: Tipography
             </Typography>
             <Typography style={{ marginBottom: theme.spacing(1) }} variant="h6">

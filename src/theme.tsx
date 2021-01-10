@@ -84,17 +84,18 @@ const theme = createMuiTheme({
             textTransform: "uppercase"
         },
         h5: {
-            fontWeight: 700,
-            fontSize: "1.25rem",
-            lineHeight: 1.75,
-            letterSpacing: "0.00938em",
-        },
-        h6: {
             fontWeight: 600,
             fontSize: "1rem",
             lineHeight: 1.75,
             letterSpacing: "0.00938em",
             textTransform: "uppercase"
+        },
+        h6: {
+            fontWeight: 600,
+            fontSize: "1rem",
+            lineHeight: "1.75",
+            letterSpacing: "0.00938em",
+            textTransform: "none"
         },
         subtitle1: {
             fontWeight: 300,
@@ -125,7 +126,7 @@ const theme = createMuiTheme({
         button: {
             fontWeight: 700,
             fontSize: "1rem",
-            lineHeight: 1.75,
+            lineHeight: "24px",
             letterSpacing: "0.00938em",
         }
     },

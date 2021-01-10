@@ -6,7 +6,7 @@ import Butons from "./components/butons";
 import Typographies from "./components/typographies";
 import Inputs from "./components/Inpupts";
 
-function App() {
+function App():React.ReactElement {
   return (
     <ThemeProvider theme={theme}>
       <MenuAppBar />

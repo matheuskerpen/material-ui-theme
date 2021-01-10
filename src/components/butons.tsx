@@ -3,10 +3,10 @@ import { Button, Typography, Card } from '@material-ui/core';
 import theme from "../theme"
 import { KeyboardArrowRight, KeyboardArrowLeft, Delete, Add } from '@material-ui/icons';
 
-export default function Butons() {
+export default function Butons():React.ReactElement {
   return (
     <Card>
-      <Typography style={{ marginBottom: theme.spacing(1) }} color="textPrimary" variant="h6">
+      <Typography style={{ marginBottom: theme.spacing(1) }} color="textPrimary" variant="h5">
         Buttons
       </Typography>
       <Typography style={{ marginBottom: theme.spacing(1) }} color="textPrimary" variant="subtitle2">

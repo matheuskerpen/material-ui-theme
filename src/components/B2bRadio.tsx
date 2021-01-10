@@ -36,7 +36,7 @@ function B2bRadioCheckedIcon() {
 
 
 export default class B2bRadio extends React.Component {
-    render() {
+    render():JSX.Element {
         return (
             <Radio {...this.props} icon={<B2bRadioIcon />} checkedIcon={<B2bRadioCheckedIcon />} />
         )

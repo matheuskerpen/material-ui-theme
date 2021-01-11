@@ -44,11 +44,11 @@ const theme = createMuiTheme({
         },
         text: {
             primary: "#007F99",
-            secondary: "#0F2733",
+            secondary: "#6390A6",
             // disabled: "",
             // hint: ""
         },
-        divider: "rgba(0, 0, 0, 0.12)",
+        divider: "rgba(10, 20, 33, 0.15)",
         background: {
             default: "#f8f8f8",
         }
@@ -64,17 +64,17 @@ const theme = createMuiTheme({
             textTransform: "uppercase",
         },
         h2: {
-            fontWeight: 300,
+            fontWeight: 200,
             fontSize: "2.625rem",
             lineHeight: 1.75,
-            letterSpacing: "0.00938em",
-            textTransform: "uppercase",
+            letterSpacing: "0.00938em"
         },
         h3: {
-            fontWeight: 700,
+            fontWeight: 600,
             fontSize: "1.875rem",
             lineHeight: 1.75,
             letterSpacing: "0.00938em",
+            textTransform: "uppercase",
         },
         h4: {
             fontWeight: 600,

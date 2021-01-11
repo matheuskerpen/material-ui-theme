@@ -1,7 +1,8 @@
 import React from 'react';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import { Card, FormControlLabel, TextField, Typography, Switch, RadioGroup, Checkbox } from '@material-ui/core';
-import B2bRadio from "./B2bRadio";
+import B2bRadio from "../components/B2bRadio";
+import CheckboxesTags from '../components/ComboxMultiCheckbox';
 
 const top100Films = [
     { title: 'The Shawshank Redemption', year: 1994 },
@@ -38,9 +39,9 @@ export default function Inputs(): React.ReactElement {
             <Autocomplete
                 options={top100Films}
                 getOptionLabel={(option:any) => option.title}
-                // style={{ width: 300 }}
                 renderInput={(params:any) => <TextField fullWidth={true} {...params} label="Combo box" />}
             />
+            <CheckboxesTags />
             <FormControlLabel control={<Switch />} label="Switch" />
             <FormControlLabel control={<Switch />} label="Switch" disabled />
             <FormControlLabel control={<Switch checked={true} />} label="Switch" disabled />

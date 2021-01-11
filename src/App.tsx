@@ -2,9 +2,9 @@ import React from 'react';
 import { ThemeProvider, Container, Typography, Card, Grid } from '@material-ui/core';
 import MenuAppBar from "./components/AppBar";
 import theme from "./theme"
-import Butons from "./components/butons";
-import Typographies from "./components/typographies";
-import Inputs from "./components/Inpupts";
+import Butons from "./colections/butons";
+import Typographies from "./colections/typographies";
+import Inputs from "./colections/Inpupts";
 
 function App():React.ReactElement {
   return (

@@ -183,11 +183,11 @@ const theme = createMuiTheme({
                 fontSize: 12
             }
         },
-        MuiTextField: {
-            root: {
-                margin: "12px 0px"
-            }
-        },
+        // MuiTextField: {
+        //     root: {
+        //         margin: "12px 0px"
+        //     }
+        // },
         MuiInputBase: {
             root: {
                 color: "#0F2733"

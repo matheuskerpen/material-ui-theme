@@ -5,6 +5,7 @@ import theme from "./theme"
 import Butons from "./colections/butons";
 import Typographies from "./colections/typographies";
 import Inputs from "./colections/Inpupts";
+import EnhancedTable from './components/table';
 
 function App():React.ReactElement {
   return (
@@ -41,6 +42,8 @@ function App():React.ReactElement {
             </Grid>
           </Grid>
         </Grid>
+        <div style={{marginTop: 8}}/>
+        <EnhancedTable/>
       </Container>
     </ThemeProvider>
   );

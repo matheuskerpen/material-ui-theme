@@ -3,7 +3,7 @@ import { createMuiTheme } from "@material-ui/core";
 const theme = createMuiTheme({
     palette: {
         common: {
-            black: "#005259",
+            black: "#0E1C2C",
             white: "#FFFFFF"
         },
         primary: {
@@ -132,6 +132,9 @@ const theme = createMuiTheme({
     },
     overrides: {
         MuiPaper: {
+            root: {
+                color: "#0E1C2C"
+            },
             elevation1: {
                 boxShadow: "0px 1px 4px rgba(0, 0, 0, 0.25)"
             },
@@ -160,6 +163,12 @@ const theme = createMuiTheme({
         MuiTypography: {
             root: {
                 color: "#0F2733"
+            },
+            h4: {
+                color: "#007f99"
+            },
+            h5: {
+                color: "#007f99"
             }
         },
         MuiAppBar: {
@@ -183,12 +192,39 @@ const theme = createMuiTheme({
                 fontSize: 12
             }
         },
+        MuiTablePagination: {
+            root: {
+                color: "#00A6BF"
+            },
+            caption: {
+                color: "#0E1C2C"
+            }
+        },
+        MuiTableCell: {
+            head: {
+                color: "#1B3C4D"
+            },
+            body: {
+                color: "#6390A6"
+                // color: "#0E1C2C"
+            }
+        },
         // MuiTextField: {
         //     root: {
         //         margin: "12px 0px"
         //     }
         // },
+        // MuiPopover: {
+        //     root: {
+        //         color: "#005259"
+        //     }
+        // },
         MuiInputBase: {
+            root: {
+                color: "#0F2733"
+            }
+        },
+        MuiFormLabel: {
             root: {
                 color: "#0F2733"
             }

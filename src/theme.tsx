@@ -205,7 +205,7 @@ const theme = createMuiTheme({
                 color: "#1B3C4D"
             },
             body: {
-                color: "#6390A6"
+                color: "#989D9E"
                 // color: "#0E1C2C"
             }
         },

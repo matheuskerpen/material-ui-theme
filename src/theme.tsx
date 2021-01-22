@@ -179,13 +179,13 @@ const theme = createMuiTheme({
         },
         MuiButton: {
             root: {
-                padding: "8px 24px",
+                padding: "12px 24px",
             },
             contained: {
                 boxShadow: "0px 2px 3px rgba(0, 0, 0, 0.25)"
             },
             text: {
-                padding: "8px 24px"
+                padding: "12px 24px"
             },
             textSizeSmall: {
                 padding: "4px 8px",

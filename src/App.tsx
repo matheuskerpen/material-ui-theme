@@ -13,7 +13,7 @@ function App():React.ReactElement {
       <MenuAppBar />
       <Container style={{ padding: "24px 24px 48px"}}>
         <Typography style={{ marginBottom: theme.spacing(2) }} variant="h1">
-          Design System
+          Design System ////
         </Typography>
         {/* GRID PRINCIPAL */}
         <Grid container spacing={1} md={12}>
